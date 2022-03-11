@@ -10,122 +10,19 @@
 <body>
 
    <!-- HEADER-->
-   <header class="header"> 
-    <nav class="header-container">
-      <div class="header__nav__logo">
-        <img src="./assets/images/logo.png" alt="Professional Logo" class="logo">
-      </div>
 
-      <div class="header__nav__menu">
-        <input type="checkbox" id="check">
-            <label for="check" class="bar-button">
-                <i class="fas fa·bars"></i>
-            </label>
-            <ul class="list-nav">
-                <li class="item-nav"><a href="#">Productos</a></li>
-                <li class="item-nav"><a href="#">Colecciones </a></li>
-                <li class="item-nav"><a href="#">Tienda</a></li>
-                <li class="item-nav"><a href="#">Inicio </a></li>
-            </ul>
-      </div>
-    </nav>
-  </header>
+   <include src="./partials/header.html"></include>
+   
 
     <!-- MAIN -->
-  <main>
-    <section class="section1">
-      <h2 class="section1__title">Disfruta creando espacios</h2>
-      <div class="button">
-          <input class="button__buy" type="submit" value="Comprar ahora" />
-      </div>
-  </section>
 
-  <section class="section2">
-    <div>
-        <h2>Volverse organizado se siente mejor con OPEN SPACES</h2>
-    </div>
-
-    <div>
-    <img src="./assets/images/icon_1.png" alt="icon of a table with objects">
-    <h3>Lo que necesitas </h3>
-    <p>Una línea de productos diseñados para todos tus espacios</p>
-    </div>
-
-    <div>
-    <img src="./assets/images/icon_2.png" alt="icon of a recycling bag">
-    <h3>Materia primas sustentables</h3>
-    <p>Una línea de productos diseñados para todos tus espacios</p>
-    </div>
-
-    <div>
-    <img src="./assets/images/icon_3.png" alt="">
-    <h3>Guía </h3>
-    <p>Soporte y asesoramiento para ayudarte con yu objetivo </p>
-    </div>
-      
-</section>
-<section class="section3">
-  <img src="./assets/images/icon_4.png" alt="icon of a delivery van">
-<h4>Envío gratis garantizado </h4>
-<p>Envío gratis en compras desde 100</p>
-<p>Comprar ahora</p>
-
-</section>
-
-<section class="section4">
-  <div>
-   <h2>Disfruta creando espacios</h2>
-   <p>Una linea de productos diseñados para todos tus espacios</p>
-
-   <div>
-      <div class="button">
-          <input class="button__buy" type="submit" value="Comprar ahora" />
-      </div>
-   </div>
-</div>
-<div>
-  <img src="./assets/images/creando-espacios.jpg" alt="image of a home bathroom">
-</div>
-</section>
-
-  </main>
+    <include src="./partials/main.html"></include>
+ 
 
     <!-- FOOTER -->
-    <footer class="footer">
-      <div class="footer__items">
-         <h3 class="items__title">Tienda</h3>
-         <span class="items__span">
-          Productos
-          Cajoneras
-          Para toda la casa 
-          Habitaciones
-         </span>
-       
-      </div>
-      <div class="footer__items">
-          <h3 class="items__title">Nosotros</h3>
-          <span class="items__span"> 
-          Nuestra guía 
-          Nuestro diseño 
-          Nuesta historia 
-          Ayuda   
-          </span>
-        
-        
-      </div>
-      <div class="footer__items">
-          <h3 class="items__title">Contacto</h3>
-          <span>
-          ayuda@openspaces.com 
-          Socios    
-          </span>
-      
-      </div>
-      
-      <div>
-        ICONOS LONKEDIN INSTAGRAM TWITTER  
-      </div> 
-      </footer>
+
+    <include src="./partials/footer.html"></include>
+    
 
 </body>
 </html>
