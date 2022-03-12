@@ -34,15 +34,14 @@ header {
     justify-content: center;
     justify-items: center;
     padding: 19px 0 64px;
-    margin: 0 101px 100px 43px;
   }
 
   &__title {
     color: #0c474b;
     font-size: 24px;
     font-weight: 600;
-    padding: 19px 0 64px;
-    margin: 10px 0 24px;
+    padding-top: 19px;
+    padding-bottom: 10px;
   }
 
   &__button {
@@ -53,7 +52,8 @@ header {
     height: 48px;
     font-weight: 600;
     padding: 12px 24px;
-    margin: 24px 119px 0 62px;
+    margin-top: 19px;
+    margin-bottom: 64px;
     transition: all 0.9s;
 
     &:hover {

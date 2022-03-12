@@ -14,19 +14,21 @@ footer {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
+  margin-top: 56px;
 
   &__title {
-    color: #ffff;
+    color: #b6c8c9;
     font-size: 20px;
   }
 
   &__link {
     font-size: 14px;
     list-style: none;
+    color: #b6c8c9;
 
     &__p {
       font-size: 14px;
-      color: #ffff;
+      color: #b6c8c9;
       list-style: none;
       text-decoration: none;
     }
@@ -45,8 +47,13 @@ footer {
 }
 
 .footer__arrow {
+  display: flex;
+  justify-content: flex-end;
+  width: 24px;
+  height: 24px;
   &__a {
     color: #ffff;
+    background-color: white;
     text-decoration: none;
     list-style: none;
     text-align: right;
