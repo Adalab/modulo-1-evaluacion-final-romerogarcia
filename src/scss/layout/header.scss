@@ -1,7 +1,7 @@
 header {
   background-image: url("../images/header.jpg");
   background-size: cover;
-  background-position-y: 25%;
+  background-position: center center;
 }
 
 .section-nav {
@@ -62,3 +62,10 @@ header {
     }
   }
 }
+
+/*
+@media all and (min-width: 768px) {
+  flex-direction: row-reverse;
+  margin-left: 146px;
+}
+*/
