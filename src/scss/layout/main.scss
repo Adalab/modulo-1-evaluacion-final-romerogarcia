@@ -4,8 +4,9 @@
 
 .section1 {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5fr;
+  text-align: center;
   background-color: #f0ebe5;
   color: #0c474b;
 
@@ -47,7 +48,7 @@
 }
 
 /* @media all and (min-width: 768px) {
-    
+    .section1 {
     }
     
     */

@@ -14,12 +14,11 @@ header {
       position: fixed;
       color: #0c474b;
     }
-
-    &__list {
-      &__item {
-      }
-    }
   }
+}
+
+.section-menu {
+  display: none;
 }
 
 .section-items {
@@ -69,3 +68,22 @@ header {
   margin-left: 146px;
 }
 */
+@media all and (min-width: 1200px) {
+  .section-menu {
+    display: inline;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .menu-nav {
+    display: inline;
+    flex-direction: row;
+    justify-content: flex-start;
+    &__list {
+      &__items {
+        text-decoration: none;
+        list-style: none;
+        color: #0c474b;
+      }
+    }
+  }
+}
