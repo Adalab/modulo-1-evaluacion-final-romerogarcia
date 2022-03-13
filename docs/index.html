@@ -4,93 +4,160 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
-  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css">
   <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  <script src="https://kit.fontawesome.com/07310f17cd.js" crossorigin="anonymous"></script>
   <title>modulo-1-evaluacion-final-romerogarcia</title>
 </head>
 <body>
 
    <!-- HEADER-->
-   <header> 
-     <nav>
-       <div>
-         <img src="./assets/images/logo.png" alt="Professional Logo" class="logo">
-       </div>
-       <input type="checkbox" id="check">
-       <label for="check" class="bar-button">
-         <i class="fas fa·bars"></i>
-       </label>
-       <ul class="nav-menu">
-         <li><a href="#">Productos</a></li>
-         <li><a href="#">Colecciones </a></li>
-         <li><a href="#">Tienda</a></li>
-         <li><a href="#">Inicio </a></li>
-       </ul>
-     </nav>
-  
-    <img src="./" alt="">
 
-  </header>
+   <header class="header"> 
+     <div class="wrap">
+       <section class="section-nav">
+         <nav class="section-nav__menu">
+           <a class="section-nav__menu__burguer" href="https://adalab.es"><i class="fa-solid fa-bars"></i></a>
+             
+           <ul class="section-nav__menu__list" style="display:none;"> <!-- Ocultar elemento-->
+                   <li class="section-nav__list__item"><a href="#">Productos</a></li>
+                   <li class="section-nav__list__item"><a href="#">Colecciones </a></li>
+                   <li class="section-nav__list__item"><a href="#">Tienda</a></li>
+                   <li class="section-nav__list__item"><a href="#">Inicio </a></li>
+             </ul> 
+         </nav>
+       </section> 
+       
+     <section class="section-items" >
+
+       <img src="./assets/images/logo.png" alt="Professional Logo" class="section-items__logo" >
+       
+       <h2 class="section-items__title">Disfruta creando espacios</h2>
+     
+       <input class="section-items__button" value="Comprar ahora"/>
+
+     </section>
+
+    </header>
+
+   
 
     <!-- MAIN -->
-  <main>
 
-Disfruta creando espacios
-BOTÓN Comprar ahora
+    <main>
+        <!-- SECTION 1 MODULO 2 GRIDD-->
 
-Volverse organizado se siente mejor con OPEN SPACES
+        <section class="section1">
+            <div class="wrap">
+                <h2 class="section1__title">Volverse organizado se siente mejor con OPEN SPACES</h2>
 
-img
-Lo que necesitas 
-Una línea de productos diseñados para todos tus espacios
+                <article class="section1__box">
+                    <img class="section1__box__photo" src="./assets/images/icon_1.png" alt="icon of a table with objects">
+                        <h3 class="section1__box__subtitle">Lo que necesitas </h3>
+                        <p class="section1__box__p">Una línea de productos diseñados para todos tus espacios</p>
+                </article>
 
-img
-Materia primas sustentables
-Una línea de productos diseñados para todos tus espacios
+                <article class="section1__box">
+                    <img class="section1__box__photo" src="./assets/images/icon_2.png" alt="icon of a recycling bag">
+                        <h3 class="section1__box__subtitle">Materia primas sustentables</h3>
+                        <p class="section1__box__p">Una línea de productos diseñados para todos tus espacios</p>
+                </article>
 
-img
-Guía 
-Soporte y asesoramiento para ayudarte con yu objetivo
 
-img 
-Envío gratis garantizado 
-Envío gratis en compras desde 100
-Compra ahora 
+                <article class="section1__box">
+                    <img class="section1__box__photo" src="./assets/images/icon_3.png" alt="icon of a counselling poster">
+                        <h3 class="section1__box__subtitle">Guía</h3>
+                        <p class="section1__box__p">Soporte y asesoramiento para ayudarte con tu objetivo </p>
+                </article>
+            </div>    
+        </section>
 
-Disfruta creando espacios
-Una lñinea de productos diseñados para todos tus espacios
-BOTÓN Comprar ahora
-  </main>
+        <!-- SECTION 2 MODULO 3 FLEX-->
+
+        <section class="section2">
+            <div class="wrap">
+            <article class="section2__box">
+                <img class="section2__box__image" src="./assets/images/icon_4.png" alt="icon of a delivery van">
+                    <h2 class="animate__animated animate__bounce" class="section2__box__title">Envío gratis garantizado </h2>
+                    <p class="section2__box__subtitle">Envío gratis en compras desde 100</p>
+                    <p class="section2__box__p"> Comprar ahora</p>
+            </article>
+            </div>
+        </section>
+        <!-- SECTION 3 MODULO 4 FLEX-->
+
+        <section class="section3">
+            <div class="wrap">
+            <article class="section3__box">
+                    <h2 class="section3__box__title">Disfruta creando espacios</h2>
+                    <p class="section3__box__p">Una linea de productos diseñados para todos tus espacios</p>
+                    <input class="section3__box__button" type="submit" value="Comprar ahora">
+            </article>
+
+
+
+            </div>
+        </section>    
+
+        <section class="section4">
+        <div class="wrap"> 
+                <img class="section4__image" src="./assets/images/creando-espacios.jpg" alt="image of a home bathroom">
+        </section>
+        </div>  
+    </main>
+ 
 
     <!-- FOOTER -->
-  <footer>
-  Tienda
-  Productos
-  Cajoneras
-  Para toda la casa 
-  Habitaciones
 
-  Nosotros
-  Nuestra guía 
-  Nuestro diseño 
-  Nuesta historia 
-  Ayuda 
+    <footer class="footer">
+    <div class="wrap"> 
+        <section class="footer__items">
+           <h3 class="footer__items__title">Tienda</h3>
+            <ul class="footer__items__link">
+                <li><a class="footer__items__link__p" href="https://adalab.es" target="_blank">Productos</a></li>
+                <li><a class="footer__items__link__p" href="https://adalab.es" target="_blank">Cajoneras</a></li>  
+                <li><a class="footer__items__link__p" href="https://adalab.es" target="_blank">Para toda la casa</a></li>
+                 <li><a class="footer__items__link__p" href="https://adalab.es" target="_blank">Habitaciones</a></li>  
+                </ul>
+        </section>
 
-  Contacto
-  ayuda@openspaces.com 
-  Socios
-  ICONOS LONKEDIN INSTAGRAM TWITTER
-  </footer>
+        <section class="footer__items">
+            <h3 class="footer__items__title">Nosotros</h3> 
+            <ul class="footer__items__link">
+                <li><a class="footer__items__link__p" href="https://adalab.es" target="_blank">Nuestra guía</a></li>
+                <li><a class="footer__items__link__p" href="https://adalab.es"target="_blank">Nuestro diseño</a></li>  
+                <li><a class="footer__items__link__p" href="https://adalab.es" target="_blank">Nuestra historia</a></li>
+                 <li><a class="footer__items__link__p" href="https://adalab.es" target="_blank">Ayuda</a></li>  
+                </ul>
+
+        </section>
+
+        <section class="footer__items">
+            <h3 class="footer__items__title">Contacto</h3>
+            <ul class="footer__items__link">
+                <li><a class="footer__items__link__p" href="https://adalab.es" target="_blank">ayuda@openspaces.com</a></li>
+                <li><a class="footer__items__link__p" href="https://adalab.es" target="_blank">Socios</a></li>  
+            </ul>
+
+            <ul class="footer__items__icon">
+                <li><a class="footer__items__icon" href="https://adalab.es" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a class="footer__items__icon" href="https://adalab.es" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a class="footer__items__icon" href="https://adalab.es" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul> 
+    </section>
+
+    <section class="footer__arrow" >
+          <a href="#">
+        <i class="fa-solid fa-arrow-up" alt="Arrow pointing upwards"></i></a>
+    </section>
+     
+    </div>
+        </footer>
+    
 
 </body>
 </html>
-
-
-
