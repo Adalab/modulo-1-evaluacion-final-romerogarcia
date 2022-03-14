@@ -33,12 +33,6 @@ header {
     justify-content: center;
     justify-items: center;
     padding: 19px 0 64px;
-    @media all and (min-width: 768px) {
-      margin-top: 50px;
-    }
-    @media all and (min-width: 1200px) {
-      margin-top: 50px;
-    }
   }
 }
 
@@ -92,10 +86,3 @@ header {
     }
   }
 }
-
-/*
-@media all and (min-width: 768px) {
-  flex-direction: row-reverse;
-  margin-left: 146px;
-}
-*/
