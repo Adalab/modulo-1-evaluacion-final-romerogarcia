@@ -104,6 +104,14 @@
   }
 }
 
+.container {
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
 .section3 {
   background-color: #b6c8c9;
   &__box {
@@ -144,19 +152,11 @@
   }
 }
 
-/*@media all and (min-width: 768px) {
-    
-} */
-
 .section4 {
   &__image {
-    align-content: stretch;
     overflow: hidden;
     object-fit: cover;
     width: 100%;
+    height: 100%;
   }
 }
-
-/*@media all and (min-width: 768px) {
-    
-} */
