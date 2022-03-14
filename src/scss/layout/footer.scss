@@ -16,9 +16,11 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 56px;
-    width: 33.33%;
+    margin-bottom: 56px;
+    width: 70.33%;
     @media (min-width: 768px) {
       margin-left: 50px;
+      width: 150.33%;
     }
 
     @media (min-width: 1200px) {
@@ -64,16 +66,17 @@ footer {
     font-stretch: normal;
     font-style: normal;
     margin-top: 56px;
-    width: 33.33%;
+    width: 70.33%;
 
     @media (min-width: 768px) {
       margin-right: 80px;
       margin-left: 80px;
+      width: 140.33%;
     }
 
     @media (min-width: 1200px) {
-      margin-right: 100px;
-      margin-left: 100px;
+      margin-right: 150px;
+      margin-left: 150px;
     }
 
     &__title {
@@ -114,7 +117,9 @@ footer {
     font-stretch: normal;
     font-style: normal;
     margin-top: 56px;
+    margin-bottom: 56px;
     width: 33.33%;
+
     @media (min-width: 768px) {
       margin-right: 50px;
     }
