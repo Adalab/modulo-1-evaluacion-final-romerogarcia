@@ -13,7 +13,7 @@ footer {
   }
 }
 
-.container {
+.container1 {
   &__items {
     justify-content: center;
     align-items: center;
@@ -21,6 +21,13 @@ footer {
     font-stretch: normal;
     font-style: normal;
     margin-top: 56px;
+    @media (min-width: 768px) {
+      margin-left: 118px;
+    }
+
+    @media (min-width: 1200px) {
+      margin-left: 352px;
+    }
 
     &__title {
       color: #b6c8c9;
@@ -30,6 +37,102 @@ footer {
     &__link {
       font-size: 14px;
       list-style: none;
+      color: #b6c8c9;
+
+      &__p {
+        font-size: 14px;
+        color: #b6c8c9;
+        list-style: none;
+        text-decoration: none;
+      }
+    }
+
+    &__icon {
+      color: white;
+      width: 24px;
+      height: 26px;
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      text-decoration: none;
+      justify-items: center;
+    }
+  }
+}
+
+.container2 {
+  &__items {
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    margin-top: 56px;
+    @media (min-width: 768px) {
+      margin-right: 150px;
+      margin-left: 150px;
+    }
+
+    @media (min-width: 1200px) {
+      margin-right: 200px;
+      margin-left: 200px;
+    }
+
+    &__title {
+      color: #b6c8c9;
+      font-size: 20px;
+    }
+
+    &__link {
+      font-size: 14px;
+      list-style: none;
+      color: #b6c8c9;
+
+      &__p {
+        font-size: 14px;
+        color: #b6c8c9;
+        list-style: none;
+        text-decoration: none;
+      }
+    }
+
+    &__icon {
+      color: white;
+      width: 24px;
+      height: 26px;
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      text-decoration: none;
+      justify-items: center;
+    }
+  }
+}
+.container3 {
+  &__items {
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    margin-top: 56px;
+    @media (min-width: 768px) {
+      margin-right: 118px;
+    }
+
+    @media (min-width: 1200px) {
+      margin-right: 352px;
+    }
+
+    &__title {
+      color: #b6c8c9;
+      font-size: 20px;
+    }
+
+    &__link {
+      font-size: 14px;
+      list-style: none;
+      text-decoration: none;
       color: #b6c8c9;
 
       &__p {
@@ -73,18 +176,3 @@ footer {
     z-index: 2;
   }
 }
-/*
-@media (min-width: 768px) {
-  .footer {
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-}
-
-@media (min-width: 1200px) {
-  .footer {
-    justify-content: center;
-  }
-}
-*/
