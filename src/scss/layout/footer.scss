@@ -1,6 +1,5 @@
 footer {
   display: flex;
-  position: relative;
   flex-direction: column;
   align-items: center;
   min-width: 300px;
@@ -9,7 +8,6 @@ footer {
   @media (min-width: 768px) {
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
   }
 }
 
@@ -17,16 +15,14 @@ footer {
   &__items {
     justify-content: center;
     align-items: center;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     margin-top: 56px;
+    width: 33.33%;
     @media (min-width: 768px) {
-      margin-left: 118px;
+      margin-left: 50px;
     }
 
     @media (min-width: 1200px) {
-      margin-left: 352px;
+      margin-left: 80px;
     }
 
     &__title {
@@ -68,14 +64,16 @@ footer {
     font-stretch: normal;
     font-style: normal;
     margin-top: 56px;
+    width: 33.33%;
+
     @media (min-width: 768px) {
-      margin-right: 150px;
-      margin-left: 150px;
+      margin-right: 80px;
+      margin-left: 80px;
     }
 
     @media (min-width: 1200px) {
-      margin-right: 200px;
-      margin-left: 200px;
+      margin-right: 100px;
+      margin-left: 100px;
     }
 
     &__title {
@@ -116,12 +114,13 @@ footer {
     font-stretch: normal;
     font-style: normal;
     margin-top: 56px;
+    width: 33.33%;
     @media (min-width: 768px) {
-      margin-right: 118px;
+      margin-right: 50px;
     }
 
     @media (min-width: 1200px) {
-      margin-right: 352px;
+      margin-right: 80px;
     }
 
     &__title {
@@ -156,20 +155,15 @@ footer {
   }
 }
 
-.icon__arrow {
-  display: flex;
-  justify-content: flex-end;
-  width: 24px;
-  height: 24px;
-  &__a {
+.container4 {
+  &__icon-arrow {
+    width: 24px;
+    height: 24px;
     color: white;
-    background-color: white;
     text-decoration: none;
     list-style: none;
     text-align: right;
-    display: none;
     background-repeat: no-repeat;
-    font-size: 20px;
     position: fixed;
     bottom: 10px;
     right: 10px;
