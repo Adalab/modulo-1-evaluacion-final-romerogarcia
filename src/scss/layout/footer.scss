@@ -2,10 +2,11 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   min-width: 300px;
   background-color: #0c474b;
   font-family: "Poppins", roboto;
-  @media (min-width: 768px) {
+  @media all and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-evenly;
   }
@@ -16,13 +17,14 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 56px;
-    margin-bottom: 56px;
-    width: 70.33%;
-    @media (min-width: 768px) {
+    width: 33.33%;
+    @media all and (min-width: 768px) {
       width: 150.33%;
+      padding-left: 50px;
+      margin-bottom: 56px;
     }
 
-    @media (min-width: 1200px) {
+    @media all and (min-width: 1200px) {
       margin-left: 80px;
     }
 
@@ -65,14 +67,14 @@ footer {
     font-stretch: normal;
     font-style: normal;
     margin-top: 56px;
-    width: 70.33%;
+    width: 33.33%;
 
-    @media (min-width: 768px) {
-      margin-right: 80px;
+    @media all and(min-width: 768px) {
+      margin-bottom: 56px;
       width: 140.33%;
     }
 
-    @media (min-width: 1200px) {
+    @media all and(min-width: 1200px) {
       margin-right: 150px;
       margin-left: 150px;
     }
@@ -118,11 +120,11 @@ footer {
     margin-bottom: 56px;
     width: 33.33%;
 
-    @media (min-width: 768px) {
+    @media all and(min-width: 768px) {
       margin-right: 50px;
     }
 
-    @media (min-width: 1200px) {
+    @media all and (min-width: 1200px) {
       margin-right: 80px;
     }
 
